@@ -1,6 +1,6 @@
 # Predictive Analytics with Wake County Restaurant Inspections 
 
-### 510 Team 1 Project | **Shyamal Anadkat, Christine Park, Hearsch Jariwala**
+### AIPI510 | **Shyamal Anadkat, Christine Park, Hearsch Jariwala**
 
 ### Building a model to predict restaurant inspections with higher than average critical violations.
 
@@ -18,8 +18,9 @@
 	`jupyter nbconvert PresentationFinal.ipynb --to slides --TagRemovePreprocessor.remove_input_tags={\"to_remove\"}` 
 	Note that the tag `to_remove` is added to code cells with plots where we want to 
 * `/datasheets`: datasheets for datasets 
+* `/notebooks`: all ipynb notebooks
 
-All our data is sourced via public, authenticated APIs. We have sourced the following data: restaurant inspections, restaurant food & safety violations, weather data, proxy for crime data, yelp data around restaurants, and the official Wake County restaurant data. The respective jupyter notebooks for sourcing & processing data from the 6 datasets are at the root of the project: 
+All our data is sourced via public, authenticated APIs. We have sourced the following data: restaurant inspections, restaurant food & safety violations, weather data, proxy for crime data, yelp data around restaurants, and the official Wake County restaurant data. The respective jupyter notebooks for sourcing & processing data from the 6 datasets are within `/notebooks`: 
 
 1. `CrimeDataAnalysis.ipynb`: Sourcing daily police incidents as proxy for crime from Wake Gov
 2. `RestaurantDataAnalysis.ipynb` : Sourcing data around restaurants from Wake Gov
