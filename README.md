@@ -4,6 +4,9 @@
 
 ### Building a model to predict restaurant inspections with higher than average critical violations.
 
+![image](https://user-images.githubusercontent.com/12115186/157798475-450379ac-2342-48bd-a6c8-c89332dffe04.png)
+
+
 ---
 
 ## Getting Started:
@@ -29,6 +32,21 @@ All our data is sourced via public, authenticated APIs. We have sourced the foll
 5. `YelpDataAnalysis.ipynb`: Fetching Yelp data around restaurants via Yelp Fusion search by business & phone. We are fetching by restaurant phone first and falling back to name if phone is invalid/absent on a record.
 6. `YelpLIVESAnalysis.ipynb`: Fetching Yelp LIVES analysis to get the scoring grade. We did not end up using this data.
 ---
+
+### Architecture:
+
+![image](https://user-images.githubusercontent.com/12115186/157798330-44a4324f-bb88-415b-aeb5-e51a0e85f74a.png)
+
+### Results
+
+![image](https://user-images.githubusercontent.com/12115186/157798541-4559fa74-db63-449b-b252-2fee77546343.png)
+
+
+### Evaluation
+
+![image](https://user-images.githubusercontent.com/12115186/157798570-34141f67-1ad9-4258-ad5b-24641c109fa7.png)
+
+
 
 *Please read ethical, privacy, and legal considerations at the bottom of `WakeCountyRestaurantInspectionsMain.ipynb`. The datasheets are within `/datasheets`*
 
